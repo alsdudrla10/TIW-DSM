@@ -1,13 +1,14 @@
 ## TRAINING UNBIASED DIFFUSION MODELS FROM BIASED DATASET (TIW-DSM) (ICLR 2024) <br><sub>Official PyTorch implementation of the TIW-DSM </sub>
 **[Yeongmin Kim](https://sites.google.com/view/yeongmin-space/%ED%99%88), Byeonghu Na, Minsang Park,JoonHo Jang, Dongjun Kim, Wanmo Kang, and Il-Chul Moon**   
 
+| [openreview](https://openreview.net/forum?id=39cPKijBed) | arxiv | datasets | checkpoints | <be>
 
-| [openreview](https://openreview.net/forum?id=39cPKijBed) | arxiv | datasets | checkpoints | <br>
+--------------------
 
 ## Overview
 ![Teaser image](./figures/Figure1_v2.PNG)
 
-## Step-by-Step Running of Discriminator Guidance
+
 
 ### 1) Prepare a pre-trained score network
   - Download **edm-cifar10-32x32-uncond-vp.pkl** at [EDM](https://github.com/NVlabs/edm) for unconditional model.
