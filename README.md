@@ -129,11 +129,12 @@ See [alsdudrla10/DG_imagenet](https://github.com/alsdudrla10/DG_imagenet) for th
 ## Reference
 If you find the code useful for your research, please consider citing
 ```bib
-@article{kim2022refining,
-  title={Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models},
-  author={Kim, Dongjun and Kim, Yeongmin and Kang, Wanmo and Moon, Il-Chul},
-  journal={arXiv preprint arXiv:2211.17091},
-  year={2022}
+@inproceedings{
+kim2024training,
+title={Training Unbiased Diffusion Models From Biased Dataset},
+author={Yeongmin Kim and Byeonghu Na and JoonHo Jang and Minsang Park and Dongjun Kim and Wanmo Kang and Il-chul Moon},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
 }
 ```
 This work is heavily built upon the code from
