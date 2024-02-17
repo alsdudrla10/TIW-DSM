@@ -2,7 +2,7 @@
 **[Yeongmin Kim](https://sites.google.com/view/yeongmin-space/%ED%99%88), Byeonghu Na, Minsang Park,JoonHo Jang, Dongjun Kim, Wanmo Kang, and Il-Chul Moon**   
 
 
-| [paper]([https://arxiv.org/abs/2211.17091](https://openreview.net/forum?id=39cPKijBed)) |  <br>
+| [paper](https://openreview.net/forum?id=39cPKijBed) |  <br>
 
 ## Overview
 ![Teaser image](./figures/Figure1_v2.PNG)
