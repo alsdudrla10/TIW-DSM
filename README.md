@@ -11,7 +11,8 @@
 ## Overview
 ![Teaser image](./figures/figure1.PNG)
 
-
+## Requirements
+The requirements for this code are the same as those outlined for [EDM](https://github.com/NVlabs/edm).
 
 ## Datasets
   - blabla
