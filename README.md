@@ -2,7 +2,7 @@
 
 
 
-**[Yeongmin Kim](https://sites.google.com/view/yeongmin-space/%ED%99%88), Byeonghu Na, Minsang Park,JoonHo Jang, Dongjun Kim, Wanmo Kang, and Il-Chul Moon**   
+**[Yeongmin Kim](https://sites.google.com/view/yeongmin-space/%ED%99%88), [Byeonghu Na](https://sites.google.com/view/byeonghu-na), Minsang Park, [JoonHo Jang](https://sites.google.com/view/joonhojang), [Dongjun Kim](https://sites.google.com/view/dongjun-kim), Wanmo Kang, and Il-Chul Moon**   
 
 | [openreview](https://openreview.net/forum?id=39cPKijBed) | arxiv | datasets | checkpoints |
 
