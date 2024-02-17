@@ -20,6 +20,7 @@
   ```
   python3 generate.py --network checkpoints/pretrained_score/edm-cifar10-32x32-uncond-vp.pkl --outdir=samples/cifar_uncond_vanilla --dg_weight_1st_order=0
    ```
+
   ### Diffusion model with TIW-DSM objective
   ```
   python3 generate.py --network checkpoints/pretrained_score/edm-cifar10-32x32-cond-vp.pkl --outdir=samples/cifar_cond_vanilla --dg_weight_1st_order=0
@@ -28,7 +29,7 @@
 ## Sampling
   - blabla
 
-## Evalusation
+## Evaluation
   - blabla
 
 
