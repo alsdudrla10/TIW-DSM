@@ -1,9 +1,8 @@
-## Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models (DG) (ICML 2023 Oral) <br><sub>Official PyTorch implementation of the Discriminator Guidance </sub>
-**[Dongjun Kim](https://sites.google.com/view/dongjun-kim) \*, [Yeongmin Kim](https://sites.google.com/view/yeongmin-space/%ED%99%88) \*, Se Jung Kwon, Wanmo Kang, and Il-Chul Moon**   
-<sup> * Equal contribution </sup> <br>
+## TRAINING UNBIASED DIFFUSION MODELS FROM BIASED DATASET (TIW-DSM) (ICLR 2024) <br><sub>Official PyTorch implementation of the TIW-DSM </sub>
+**[Yeongmin Kim](https://sites.google.com/view/yeongmin-space/%ED%99%88), Byeonghu Na, Minsang Park,JoonHo Jang, Dongjun Kim, Wanmo Kang, and Il-Chul Moon**   
 
-| [paper](https://arxiv.org/abs/2211.17091) |  <br>
-**See [alsdudrla10/DG_imagenet](https://github.com/alsdudrla10/DG_imagenet) for ImageNet256 code release.** <br>
+
+| [paper]([https://arxiv.org/abs/2211.17091](https://openreview.net/forum?id=39cPKijBed)) |  <br>
 
 ## Overview
 ![Teaser image](./figures/Figure1_v2.PNG)
