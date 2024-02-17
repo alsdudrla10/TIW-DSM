@@ -9,7 +9,7 @@
 --------------------
 
 ## Overview
-![Teaser image](./figures/1igure1.PNG)
+![Teaser image](./figures/figure1.PNG)
 
 
 
