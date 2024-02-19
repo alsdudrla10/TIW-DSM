@@ -5,7 +5,7 @@
 **[Yeongmin Kim](https://sites.google.com/view/yeongmin-space/%ED%99%88), [Byeonghu Na](https://sites.google.com/view/byeonghu-na), Minsang Park, [JoonHo Jang](https://sites.google.com/view/joonhojang), [Dongjun Kim](https://sites.google.com/view/dongjun-kim), [Wanmo Kang](https://sites.google.com/site/wanmokang), and [Il-Chul Moon](https://aai.kaist.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=3)**   
 
 | [openreview](https://openreview.net/forum?id=39cPKijBed) | arxiv | datasets | checkpoints |
-
+Coming Soon!
 --------------------
 
 ## Overview
@@ -19,12 +19,12 @@ The requirements for this code are the same as those outlined for [EDM](https://
 ## Training
   ### Time-dependent discriminator 
   ```
-  python3 generate.py --network checkpoints/pretrained_score/edm-cifar10-32x32-uncond-vp.pkl --outdir=samples/cifar_uncond_vanilla --dg_weight_1st_order=0
+  blabla
    ```
 
   ### Diffusion model with TIW-DSM objective
   ```
-  python3 generate.py --network checkpoints/pretrained_score/edm-cifar10-32x32-cond-vp.pkl --outdir=samples/cifar_cond_vanilla --dg_weight_1st_order=0
+  blabla
    ```
 
 ## Sampling
