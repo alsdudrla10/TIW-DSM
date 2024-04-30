@@ -62,7 +62,7 @@ The requirements for this code are the same as those outlined for [EDM](https://
    ```
   - CelebA64
    ```
-  python fid.py calc --ref=/PATH/TIW-DSM/datasets/new_ours/celeba/evaluation/FID_stat.npz --num=50000 --images=YOUR_SAMPLE_PATH
+  python fid.py calc --ref=/PATH/TIW-DSM/datasets/celeba/evaluation/FID_stat.npz --num=50000 --images=YOUR_SAMPLE_PATH
    ```
 
 ## Reference
