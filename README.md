@@ -17,6 +17,7 @@ The requirements for this code are the same as those outlined for [EDM](https://
 ## Datasets
   - Download from [datasets](https://drive.google.com/drive/u/0/folders/1RakPtfp70E2BSgDM5xMBd2Om0N8ycrRK) with similar directory structure.
 ## Training
+- Download pre-trained feature extractor from [checkpoints](https://drive.google.com/drive/u/0/folders/1vYLH8UNlXWZarn0IOtiPuU8FvBFqJvTP).
   ### Time-dependent discriminator 
   - CIFAR10 LT / 5% setting
   ```
