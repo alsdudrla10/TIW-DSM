@@ -15,7 +15,7 @@
 The requirements for this code are the same as those outlined for [EDM](https://github.com/NVlabs/edm).
 
 ## Datasets
-  - Download from [datasets](https://drive.google.com/drive/u/0/folders/1RakPtfp70E2BSgDM5xMBd2Om0N8ycrRK) with simmilar directory structure
+  - Download from [datasets](https://drive.google.com/drive/u/0/folders/1RakPtfp70E2BSgDM5xMBd2Om0N8ycrRK) with similar directory structure.
 ## Training
   ### Time-dependent discriminator 
   - CIFAR10 LT / 5% setting
@@ -32,8 +32,17 @@ The requirements for this code are the same as those outlined for [EDM](https://
    ```
 
   ### Diffusion model with TIW-DSM objective
+  - CIFAR10 LT / 5% setting
   ```
-  blabla
+  CUDA_VISIBLE_DEVICES=0,1,2,3  torchrun --standalone --nproc_per_node=4 train.py --arch=ddpmpp --outdir=out_dir --data=PATH/TIW-DSM/datasets/cifar10/score_training/500_10000/dataset.zip --batch=256 --tick=5 --duration=11
+   ```
+  - CIFAR10 LT / 10% setting
+  ```
+  CUDA_VISIBLE_DEVICES=0,1,2,3  torchrun --standalone --nproc_per_node=4 train.py --arch=ddpmpp --outdir=out_dir --data=PATH/TIW-DSM/datasets/cifar10/score_training/1000_10000/dataset.zip --batch=256 --tick=5 --duration=21
+   ```
+  - CelebA64 / 5% setting
+   ```
+  CUDA_VISIBLE_DEVICES=0,1,2,3  torchrun --standalone --nproc_per_node=4 train.py --arch=ddpmpp --batch=256 --cres=1,2,2,2 --lr=2e-4 --dropout=0.05 --augment=0.15 --outdir=outdir --data=PATH/TIW-DSM/datasets/celeba64/score_training/dataset.zip --cla_path=PATH/TIW-DSM/checkpoints/discriminator/feature_extractor/64x64_classifier.pt  --dis_path=PATH/TIW-DSM/checkpoints/discriminator/celeba64/unbias_8k/discriminator_9501.pt --tick=5
    ```
 
 ## Sampling
