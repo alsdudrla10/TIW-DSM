@@ -20,7 +20,15 @@ The requirements for this code are the same as those outlined for [EDM](https://
   ### Time-dependent discriminator 
   - CIFAR10 LT / 5% setting
   ```
-  python3.6 train_classifier.py
+  python train_classifier.py
+   ```
+  - CIFAR10 LT / 10% setting
+  ```
+  python train_classifier.py --savedir=/checkpoints/discriminator/cifar10/unbias_1000/ --refdir=/datasets/cifar10/discriminator_training/unbias_1000/real_data.npz --real_mul=10
+   ```
+  - CelebA64 / 5% setting
+  ```
+  python train_classifier.py --feature_extractor=/checkpoints/discriminator/feature_extractor/64x64_classifier.pt --savedir=/checkpoints/discriminator/celeba64/unbias_8k/ --biasdir=/datasets/celeba64/discriminator_training/bias_162k/fake_data.npz --refdir=/datasets/celeba64/discriminator_training/unbias_8k/real_data.npz --img_resolution=64
    ```
 
   ### Diffusion model with TIW-DSM objective
