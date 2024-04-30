@@ -55,8 +55,14 @@ The requirements for this code are the same as those outlined for [EDM](https://
   torchrun --standalone --nproc_per_node=2 generate.py  --steps=40 --outdir=out --seeds=0-49999 --batch=64 --network=TRAINED_PKL
    ```
 ## Evaluation
-  - blabla
-
+  - CIFAR10
+   ```
+  python fid.py calc --ref=https://nvlabs-fi-cdn.nvidia.com/edm/fid-refs/cifar10-32x32.npz --num=50000 --images=YOUR_SAMPLE_PATH
+   ```
+  - CelebA64
+   ```
+  python fid.py calc --ref=/PATH/TIW-DSM/datasets/new_ours/celeba/evaluation/FID_stat.npz --num=50000 --images=YOUR_SAMPLE_PATH
+   ```
 
 ## Reference
 If you find the code useful for your research, please consider citing
