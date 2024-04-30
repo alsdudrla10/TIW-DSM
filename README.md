@@ -15,11 +15,12 @@
 The requirements for this code are the same as those outlined for [EDM](https://github.com/NVlabs/edm).
 
 ## Datasets
-  - blabla
+  - Download from [datasets](https://drive.google.com/drive/u/0/folders/1RakPtfp70E2BSgDM5xMBd2Om0N8ycrRK) with simmilar directory structure
 ## Training
   ### Time-dependent discriminator 
+  - CIFAR10 LT / 5% setting
   ```
-  blabla
+  python3.6 train_classifier.py
    ```
 
   ### Diffusion model with TIW-DSM objective
