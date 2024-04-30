@@ -46,8 +46,10 @@ The requirements for this code are the same as those outlined for [EDM](https://
    ```
 
 ## Sampling
-  - blabla
-
+   ```
+  - torchrun --standalone --nproc_per_node=2 generate.py --outdir=out --seeds=0-49999 --batch=64 \
+    --network=TRAINED_PKL
+   ```
 ## Evaluation
   - blabla
 
