@@ -10,7 +10,7 @@
 
 ## Overview
 ![Teaser image](./figures/figure1.PNG)
-
+![Teaser image](./figures/figure2.PNG)
 ## Requirements
 The requirements for this code are the same as those outlined for [EDM](https://github.com/NVlabs/edm).
 
