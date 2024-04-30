@@ -41,9 +41,10 @@ If you find the code useful for your research, please consider citing
 @inproceedings{
 kim2024training,
 title={Training Unbiased Diffusion Models From Biased Dataset},
-author={Yeongmin Kim and Byeonghu Na and JoonHo Jang and Minsang Park and Dongjun Kim and Wanmo Kang and Il-chul Moon},
+author={Yeongmin Kim and Byeonghu Na and Minsang Park and JoonHo Jang and Dongjun Kim and Wanmo Kang and Il-chul Moon},
 booktitle={The Twelfth International Conference on Learning Representations},
 year={2024},
+url={https://openreview.net/forum?id=39cPKijBed}
 }
 ```
 This work is heavily built upon the code from
