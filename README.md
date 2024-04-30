@@ -46,9 +46,13 @@ The requirements for this code are the same as those outlined for [EDM](https://
    ```
 
 ## Sampling
+- CIFAR10
    ```
-  - torchrun --standalone --nproc_per_node=2 generate.py --outdir=out --seeds=0-49999 --batch=64 \
-    --network=TRAINED_PKL
+  torchrun --standalone --nproc_per_node=2 generate.py --outdir=out --seeds=0-49999 --batch=64 --network=TRAINED_PKL
+   ```
+- CelebA64
+   ```
+  torchrun --standalone --nproc_per_node=2 generate.py  --steps=40 --outdir=out --seeds=0-49999 --batch=64 --network=TRAINED_PKL
    ```
 ## Evaluation
   - blabla
